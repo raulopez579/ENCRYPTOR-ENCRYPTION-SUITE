@@ -1,7 +1,22 @@
 # ENCRYPTOR: C Encryption Suite
 
-## About the Project
 
+## What This Encryptor Does
+This program performs basic character-based encryption on text input using a deterministic transformation. It is designed as a learning project in C, demonstrating string handling, character manipulation, and file I/O without external libraries.
+
+## What This Encryptor Does Not Do
+This encryptor is not cryptographically secure and should not be used to protect sensitive or confidential data. It does not implement industry-standard encryption algorithms, key management, or secure randomness. Its purpose is educational, not security-critical.
+
+## How to Compile and Run
+Compile (GCC):
+gcc encryptor.c -o encryptor
+
+Run:
+./encryptor
+
+Follow the on-screen prompts to input text and generate the encrypted output.
+
+## About the Project
 Encryptor is a modular encryption program written entirely in C.  
 It currently supports substitution-cipher encryption with:
 
