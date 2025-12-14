@@ -1,0 +1,23 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on Keep a Changelog,
+and this project follows semantic versioning.
+
+---
+
+## [v1.0.0] – 2025-12-11
+### Added
+- Initial public release
+- Substitution cipher encryption
+- Random substitution key generation
+- Persistent key saving and loading (`key.txt`)
+- Modular multi-file C project structure
+- Command-line user interaction
+
+### Notes
+- This project is for educational purposes only.
+- Encryption is not cryptographically secure.
+
+---
